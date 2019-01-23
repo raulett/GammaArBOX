@@ -548,6 +548,7 @@ void readGammaSerial(){
   }
 }
 
+//получает данные с лидара
 void getLidarDistance(){
   digitalWrite(lidarLedRed, 0);
   digitalWrite(lidarLedGreen, 0);
